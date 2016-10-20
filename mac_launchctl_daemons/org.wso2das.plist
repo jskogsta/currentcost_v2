@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableGlobbing</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>CARBON_HOME</key>
+		<string>/Users/jskogsta/local/wso2das</string>
+		<key>JAVA_HOME</key>
+		<string>/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/home</string>
+		<key>PATH</key>
+		<string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/sbin:/Users/jskogsta/local/wso2das/bin</string>
+	</dict>
+	<key>GroupName</key>
+	<string>staff</string>
+	<key>InitGroups</key>
+	<false/>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>org.wso2das</string>
+	<key>Program</key>
+	<string>/Users/jskogsta/local/wso2das/bin/wso2server.sh</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>start</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/jskogsta/local/wso2das_launchctl_logs/wso2das-launchd.stderr</string>
+	<key>StandardOutPath</key>
+	<string>/Users/jskogsta/local/wso2das_launchctl_logs/wso2das-launchd.stdout</string>
+	<key>UserName</key>
+	<string>jskogsta</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/jskogsta/local/wso2das/</string>
+</dict>
+</plist>
